@@ -1,8 +1,8 @@
-## Documentación Api de compra de tickets
+# Documentación 
+
+## Api de compra de tickets
 
 Api creada en nodejs
-
-#Endpoints
 
 ## Endpoints
 
@@ -103,5 +103,82 @@ Api creada en nodejs
       "mensaje": "Pago creado exitosamente"
     }
     ```
+
+---
+
+## Tecnologías Utilizadas:
+
+### Lenguajes de Programación:
+- JavaScript (Node.js)
+
+### Frameworks:
+- Express.js (para el desarrollo del servidor)
+
+### Base de Datos:
+- SQLite (relacional)
+
+### Herramientas Adicionales:
+- `sqlite3` (para la interacción con la base de datos)
+- `body-parser` (para el manejo de datos JSON en las solicitudes)
+
+---
+
+## Configuración y Requisitos del Entorno:
+
+### Requisitos del Entorno:
+- Node.js instalado (versión recomendada: 12.x o superior)
+- npm (administrador de paquetes de Node.js)
+
+### Configuración Local:
+1. **Clona el repositorio desde GitHub:**
+    ```bash
+    git clone https://github.com/lyespinosa/api-mantenimiento
+    ```
+2. **Ingresa al directorio del proyecto:**
+    ```bash
+    cd api-mantenimiento
+    ```
+3. **Instala las dependencias:**
+    ```bash
+    npm install
+    ```
+4. **Inicia la aplicación:**
+    ```bash
+    npm start
+    ```
+5. **Accede a la aplicación desde tu navegador:**
+    - `http://localhost:3000` (o el puerto configurado)
+
+---
+
+## Instrucciones de Implementación:
+
+### Pasos para Implementar el Proyecto:
+
+1. **Clonar el Repositorio:**
+    ```bash
+    git clone https://github.com/lyespinosa/api-mantenimiento
+    ```
+
+2. **Ingresar al Directorio del Proyecto:**
+    ```bash
+    cd tu-proyecto
+    ```
+
+3. **Instalar Dependencias:**
+    ```bash
+    npm install
+    ```
+
+4. **Configurar la Base de Datos:**
+    - La aplicación utiliza SQLite, por lo que no es necesario configurar un servidor de base de datos. La base de datos se crea automáticamente en memoria al iniciar la aplicación.
+
+5. **Iniciar la Aplicación:**
+    ```bash
+    npm start
+    ```
+
+6. **Acceder a la Aplicación:**
+    - Abre tu navegador web y visita: `http://localhost:3000` (o el puerto configurado)
 
 ---
