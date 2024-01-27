@@ -4,9 +4,15 @@
 
 Api creada en nodejs
 
+
+## Diagrama de dominio
+
+![diagrama de dominio](https://github.com/lyespinosa/api-mantenimiento/assets/65049169/5985065a-ce62-43b7-83d3-1c3b1629d830)
+
 ## Endpoints
 
 ### Obtener Destinos del Día
+
 
 - **Descripción:** Obtiene la lista de destinos del día.
 - **Ruta:** `GET /destinos-dia`
